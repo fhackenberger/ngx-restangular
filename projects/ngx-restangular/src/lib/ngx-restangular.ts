@@ -129,6 +129,7 @@ export class Restangular {
   restangularized;
   restangularizeElement;
   restangularizeCollection;
+  stripRestangular;
 
   constructor(
     @Optional() @Inject(RESTANGULAR) public configObj,
